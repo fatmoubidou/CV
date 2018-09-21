@@ -18,33 +18,35 @@
 
 <body>
   <header>
-    <div class="div_photo">
-      <img src="img/paquerette.jpg" alt="photo_cv">
-    </div>
+
     <section>
         <h1>Fatma El ammari</h1>
         <h2>Développeuse web</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lorem risus, porttitor at libero nec, rutrum vulputate ante.
-          Nam tristique, orci vel facilisis lacinia, tortor libero vulputate risus, non porta arcu urna ut lorem. Nullam vitae posuere neque.
-          Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque vehicula ligula sem, sit amet fringilla mauris viverra nec.</p>
+
     </section>
+    <div class="reseaux_sociaux">
+      <div><img src="img/linkedin.png" alt="mon compte LinkedIn"/></div>
+      <div><img src="img/twitter.png" alt="mon compte Twitter"/></div>
+    </div>
   </header>
 
   <main>
-    <section>
+    <div  id="competences">
+      <section>
       <h2>Compétences</h2>
       <div class="div_competences">
         <article class="">
+          <div><img src="img/coding.png" alt=""></div>
           <h3>Développement Front-End</h3>
           <ul>
             <li>Intégration HTML5 / CSS3 de Site Web Responsive</li>
             <li>Javascript / Intégration Jquery</li>
             <li>CMS : WordPress</li>
           </ul>
-          <p></p>
         </article>
 
         <article class="">
+          <div><img src="img/php-file.png" alt=""></div>
           <h3>Développement Back-End</h3>
           <ul>
             <li>PHP / MySQL</li>
@@ -53,49 +55,28 @@
         </article>
 
         <article class="">
+          <div><img src="img/technical-support.png" alt=""></div>
           <h3>Outils</h3>
           <ul>
             <li>Photoshop</li>
-            <li>Git</li>
+            <li>Git/github</li>
           </ul>
         </article>
       </div>
 
     </section>
+    </div>
 
 <div class="div_container">
-    <aside class="aside_left">
-      <div class="div_contact">
-          <img src="img/envelope.png" alt="mon email"/>
-          <img src="img/phone.png" alt="mon phone number"/>
-          <img src="img/linkedin.png" alt="mon compte LinkedIn"/>
-          <img src="img/twitter.png" alt="mon compte Twitter"/>
-        </div>
 
-      <section>
-        <h3>Langues</h3>
-        <div class="div_langues">
-          <ul>
-            <li>Anglais</li>
-          </ul>
-        </div>
-      </section>
-
-      <section>
-        <h3>Loisirs</h3>
-        <div class="div_loisirs">
-          <ul>
-            <li>Couture</li>
-            <li>Crochet</li>
-            <li>Running</li>
-            <li>Pâtisserie</li>
-          </ul>
-        </div>
-      </section>
-    </aside>
 
     <div class="div_right">
-
+      <section>
+        <h2>Profils</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lorem risus, porttitor at libero nec, rutrum vulputate ante.
+          Nam tristique, orci vel facilisis lacinia, tortor libero vulputate risus, non porta arcu urna ut lorem. Nullam vitae posuere neque.
+          Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque vehicula ligula sem, sit amet fringilla mauris viverra nec.</p>
+      </section>
 
       <section id="experiences">
         <h2>Expériences</h2>
@@ -143,8 +124,76 @@
       </section>
 
     </div>
+    <aside class="aside_left">
+      <section class="div_contact">
+        <h2>Contact</h2>
+
+           <div class="contact">
+             <div class="div_photo">
+               <img src="img/paquerette.jpg" alt="photo_cv">
+             </div>
+             <div class="contact_info">
+              <div><div><img src="img/envelope.png" alt="mon email"/></div><div class="content">prénom.nom@gmail.com</div></div>
+              <div><div><img src="img/phone.png" alt="mon phone number"/></div><div class="content">06 00 00 00 00</div></div>
+              <div><div><img src="img/envelope.png" alt="mon adresse"/></div><div class="content">Hem</div></div>
+            </div>
+           </div>
+
+      </section>
+
+      <section id="formations">
+        <h2>Formations</h2>
+        <article class="">
+          <h3>Formation Développeuse web, 2018-2019</h3>
+          <h4>SIMPLON</h4>
+        </article>
+        <article class="">
+          <h3>Licence Professionnelle Réseaux et Télécom, 2004-2005</h3>
+          <h4>Institut des Sciences et Techniques de Valenciennes (ISTV, mention assez bien)</h4>
+        </article>
+        <article class="">
+          <h3>Licence Professionnelle Technologies de l'Information et Internet, 2003-2004</h3>
+          <h4>Institut des Sciences et Techniques de Valenciennes (ISTV, mention assez bien)</h4>
+        </article>
+        <article class="">
+          <h3>DEUST Bureautique et Communication Electronique d'Entreprise, 2001-2003 </h3>
+          <h4>Université des Sciences et Technologies de Lille (USTL)</h4>
+        </article>
+        <article class="">
+          <h3>Baccalauréat Economique et Social, 2000-2001 </h3>
+          <h4>Lycée Gaston Berger à LILLE</h4>
+        </article>
+
+      </section>
+
+
+    </aside>
   </div>
+
+
   </main>
+  <footer>
+    <section>
+      <h3>Langues</h3>
+      <div class="div_langues">
+        <ul>
+          <li>Anglais</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h3>Loisirs</h3>
+      <div class="div_loisirs">
+        <ul>
+          <li>Couture</li>
+          <li>Crochet</li>
+          <li>Running</li>
+          <li>Pâtisserie</li>
+        </ul>
+      </div>
+    </section>
+  </footer>
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
