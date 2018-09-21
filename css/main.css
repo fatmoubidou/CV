@@ -103,6 +103,7 @@ body{
   font-family: arial,sans-serif;
 }
 
+/* styles du header */
 header{
   background-color: #4a4e69;
   color:#f2e9e4;
@@ -127,8 +128,20 @@ header section h2{
   font-weight: normal;
 }
 
-main{
+.reseaux_sociaux{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-top: 0.67em;
+  width: 25%;
+}
 
+.reseaux_sociaux div{
+  margin-right: 1em;
+}
+
+/* styles de la partie principale  */
+main{
   display: flex;
   flex-direction: column;
 }
@@ -180,17 +193,6 @@ main{
   padding-top: 5px;
 }
 
-.reseaux_sociaux{
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-  margin-top: 0.67em;
-  width: 25%;
-}
-
-.reseaux_sociaux div{
-  margin-right: 1em;
-}
 
 .div_right{
   width:58%;
@@ -290,7 +292,30 @@ margin: 0 auto;
 }
 
 
+/* styles du footer */
+footer{
+  background-color: #4a4e69;
+  color:#f2e9e4;
+  width: 70%;
+  padding: 0 15%;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+}
 
+
+footer section{
+  width: 75%;
+}
+
+footer section h1{
+  margin-bottom: 0px;
+}
+
+footer section h2{
+  margin-top: 0px;
+  font-weight: normal;
+}
 
 
 
