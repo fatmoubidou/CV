@@ -11,7 +11,7 @@
    ========================================================================== */
 
 html {
-    color: #22223b;
+    color: #2a2a2a;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -103,7 +103,7 @@ body{
   font-family: arial,sans-serif;
 }
 
-/* styles du header */
+/* HEADER styles */
 header{
   background-color: #4a4e69;
   color:#f2e9e4;
@@ -113,7 +113,6 @@ header{
   display: flex;
   flex-direction: row;
 }
-
 
 header section{
   width: 75%;
@@ -140,19 +139,19 @@ header section h2{
   margin-right: 1em;
 }
 
-/* styles de la partie principale  */
+/* MAIN styles */
 main{
   display: flex;
   flex-direction: column;
 }
 
-
-.aside_left{
+.aside_right{
   width:40%;
 }
 
-.aside_left section h2{
+.aside_right section h2{
   border-bottom: 1px solid #22223b;
+  color:#22223b;
 }
 
 .div_contact{
@@ -174,7 +173,6 @@ main{
   border-radius: 50% 50%;
 }
 
-
 .contact_info{
   width: 60%;
   display: flex;
@@ -193,25 +191,25 @@ main{
   padding-top: 5px;
 }
 
-
-.div_right{
+.div_left{
   width:58%;
   margin-right: 2%;
 }
 
-.div_right section h2 {
+.div_left section h2 {
   border-bottom: 1px solid #22223b;
+  color:#22223b;
 }
 
 #competences{
   width: 100%;
   background-color: #c9ada7;
-  padding-bottom: 1em;
 }
 
-#competences section{
+#competences .div_competences{
   width: 70%;
   margin: 0 auto;
+  margin: 2em auto;
 }
 
 #competences h2{
@@ -228,11 +226,10 @@ justify-content: space-between;
   width:30%;
   background-color: #f2e9e4;
   border: 1px solid #c9ada7;
-  padding: 0.3em 0.6em;
+  padding: 0.5em;
   display: flex;
   flex-direction: column;
   text-align: center;
-
 }
 
 .div_competences article div{
@@ -250,13 +247,11 @@ justify-content: space-between;
   padding: 0;
 }
 
-
-
 .div_container{
   display: flex;
   flex-direction: row;
   width: 70%;
-margin: 0 auto;
+  margin: 0 auto;
 }
 
 #experiences article h3, h4{
@@ -291,8 +286,7 @@ margin: 0 auto;
   font-weight: normal;
 }
 
-
-/* styles du footer */
+/* FOOTER styles */
 footer{
   background-color: #4a4e69;
   color:#f2e9e4;
@@ -302,7 +296,6 @@ footer{
   display: flex;
   flex-direction: row;
 }
-
 
 footer section{
   width: 75%;
@@ -317,16 +310,28 @@ footer section h2{
   font-weight: normal;
 }
 
+.div_langues div{
+  display: flex;
+flex-direction: row;
+margin-bottom: 0.5em;
+margin-right: 1em;
+}
 
+.langues{
+  width:60%;
+}
 
+.loisirs{
+  width:40%
+}
 
-
-
-
-
-
-
-
+.div_loisirs{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+  margin: 1em 0 3em 0;
+}
 
 /* ==========================================================================
    Helper classes
